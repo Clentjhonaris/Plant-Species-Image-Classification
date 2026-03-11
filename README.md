@@ -143,5 +143,141 @@ The Kauri tree (Agathis australis) is a massive, ancient native conifer in New Z
 </details
 
 
+<details>
+<summary>🌲 Aspen Tree</summary>
+
+<img width="529" height="624" alt="image" src="https://github.com/user-attachments/assets/4be4748c-b285-4676-9b44-a829f82c79ec" />
+
+**Scientific Name:** *Populus tremuloides*  
+
+**Description:**  
+known for its smooth, white-to-gray bark, heart-shaped leaves that tremble in the wind, and vibrant yellow fall color.
+</details>
+
+
+<details>
+<summary>🌲 Weeping Beech Tree</summary>
+
+<img width="845" height="625" alt="image" src="https://github.com/user-attachments/assets/3cc342b5-5424-4043-a9e4-74f445f9bb49" />
+
+**Scientific Name:** *Fagus sylvatica Pendula*  
+
+**Description:**  
+a slow-growing, deciduous specimen tree recognized by its dramatic, cascading branches that often reach the ground, forming a tent-like, dome-shaped canopy.
+</details>
+
+
+<details>
+<summary>🌲 European Beech Tree</summary>
+
+<img width="425" height="634" alt="image" src="https://github.com/user-attachments/assets/628edea1-4679-4b08-a0b9-5e0cb04efd82" />
+
+
+**Scientific Name:** *Fagus sylvatica*  
+
+**Description:**  
+a large, deciduous tree, often called the "queen of British trees," growing 25–35 meters tall with a smooth, silvery-grey bark that remains smooth even as it ages.
+</details>
+
+
+<details>
+<summary>🌲 Fig Tree</summary>
+
+<img width="653" height="580" alt="image" src="https://github.com/user-attachments/assets/337d7208-2432-4b50-806c-e937d5712ad2" />
+
+
+
+**Scientific Name:** *Ficus carica*  
+
+**Description:**  
+ a deciduous, sun-loving tree or large shrub in the Moraceae family, known for its smooth gray bark, large lobed leaves, and sweet, pear-shaped, edible fruit. 
+</details>
+
+
+<details>
+<summary>🌲 Beech Tree</summary> 
+
+<img width="864" height="592" alt="image" src="https://github.com/user-attachments/assets/886c3765-11ca-473d-a658-c68ae8cbe1c6" /> 
+
+
+**Scientific Name:** *Fagus sylvatica*  
+
+**Description:**  
+large, deciduous trees reaching up to 100+ feet, characterized by smooth, steel-gray bark, a wide-spreading canopy, and distinctive, sharply pointed, torpedo-shaped buds. .
+</details>
+
+
+<details>
+<summary>🌲 White Oak Tree</summary> 
+
+<img width="838" height="625" alt="image" src="https://github.com/user-attachments/assets/040f0472-8e07-4d4f-bd49-b1f6d2924b5a" /> 
+
+
+**Scientific Name:** *Quercus alba*  
+
+**Description:**  
+large, long-lived, and majestic native North American hardwood.
+</details>
+
+
+<details>
+<summary>🌲 White Ash Tree</summary> 
+
+<img width="479" height="625" alt="image" src="https://github.com/user-attachments/assets/127ef3f6-9120-432b-9211-fe2d8ace9861" /> 
+
+
+**Scientific Name:** *Fraxinus americana*  
+
+**Description:**  
+ large, fast-growing deciduous tree native to eastern North America, typically reaching 60–90 feet in height with a 50–75 foot spread. 
+</details>
+
+
+<details>
+<summary>🌲 Horse Chestnut Tree</summary> 
+
+<img width="785" height="626" alt="image" src="https://github.com/user-attachments/assets/88ac54b5-dc2b-440e-8303-b285a94d56e0" /> 
+
+
+**Scientific Name:** *Aesculus hippocastanum*  
+
+**Description:**  
+large, deciduous, and fast-growing tree, often reaching 40 meters in height with a wide, domed crown.
+</details>
+
+
+<details>
+<summary>🌲 Maple Tree</summary> 
+
+<img width="548" height="620" alt="image" src="https://github.com/user-attachments/assets/8e0a50b0-eb98-496b-8da9-44fc27c83939" /> 
+
+
+
+**Scientific Name:** *Acer*  
+
+**Description:**  
+ deciduous, broadleaf trees known for opposite, palmately lobed leaves that turn brilliant red, orange, or yellow in autumn.
+</details>
+
+
+
+---
+
+## 🏋️‍♂️ C. Model Training Details
+
+The image classification model for tree species was trained using the following configuration:
+
+- **Epochs:** 50 ⏱️  
+- **Batch Size:** 16 📦  
+- **Learning Rate:** 0.001 ⚡  
+- **Number of Images per Class:** 250 🖼️  
+
+
+---
+
+
+## 📊 D. Model Evaluation
+
+The model was evaluated to measure its performance across all tree species.
 
 

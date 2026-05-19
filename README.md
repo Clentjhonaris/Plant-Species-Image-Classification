@@ -280,4 +280,75 @@ The image classification model for tree species was trained using the following 
 
 The model was evaluated to measure its performance across all tree species.
 
+**Confusion Matrix:**  
+<img width="424" height="811" alt="image" src="https://github.com/user-attachments/assets/d49c8212-9aa8-4f3d-b13d-9e8d660bc2ca" />
+
+**Accuracy per Class:**  
+<img width="365" height="773" alt="image" src="https://github.com/user-attachments/assets/4e5424ab-4068-4793-99b3-d03d5c3f6d47" />
+
+**Overall Model Accuracy:**  
+- Accuracy: 99.1% ✅ 
+
+
+## 🧪 E. Model Testing
+
+Sample predictions from the testing dataset are shown below:\
+
+| Test Image | Predicted Class |
+|------------|----------------|
+|<img width="311" height="518" alt="image" src="https://github.com/user-attachments/assets/809c0aaf-ab7b-4db6-9474-a7e08f59714e" />|🌲 Aspen tree
+|<img width="191" height="564" alt="image" src="https://github.com/user-attachments/assets/79af26fa-07ce-4465-a569-a3d6eb1c7a3e" />|🌳 Basswood tree
+|<img width="190" height="523" alt="image" src="https://github.com/user-attachments/assets/bc8690f1-ce0f-4496-a866-39ddde1df2d7" />| 🌿 Beech tree
+|<img width="211" height="594" alt="image" src="https://github.com/user-attachments/assets/bb182e02-3468-49ca-a42e-6329ba4c785a" />| 🌿 Butternut tree
+|<img width="269" height="583" alt="image" src="https://github.com/user-attachments/assets/14c95972-aa4a-496f-b1ad-f25fdb727773" />| 🌲 Cedar tree
+|<img width="239" height="534" alt="image" src="https://github.com/user-attachments/assets/1989d282-7bbc-4d18-b373-18fc595b1030" />| 🌿 Cottonwood tree
+|<img width="219" height="513" alt="image" src="https://github.com/user-attachments/assets/b4e2ada3-ee21-48d6-b378-9761ff545e7f" />| 🌳 Crepe Mrytle tree
+|<img width="261" height="583" alt="image" src="https://github.com/user-attachments/assets/6ad09e9d-9545-406d-b717-17cbe9d316f8" />| 🌲 Cucumber tree
+|<img width="276" height="476" alt="image" src="https://github.com/user-attachments/assets/efde2845-6732-4140-bc3e-cc70abd2c1e3" />| 🌲 Elm tree
+|<img width="209" height="501" alt="image" src="https://github.com/user-attachments/assets/7388ac2b-6764-4112-b7ce-f1fd15ec0e80" />| 🌲 European Beech tree
+
+ ---
+## Model Training Reflection 🌳
+
+### 1. How did the number of images per class affect your model’s accuracy?
+
+Answer:The number of images per class did not have a major impact on the model's accuracy, and I think the reason for that is actually pretty straightforward. The dataset was very evenly distributed, with each class having somewhere between 38 and 47 images. That is a very narrow range, so no single tree species had a big advantage over another in terms of how much training data the model could learn from.
+
+
+---
+
+### 2. Which plant species were most commonly misclassified and why?
+
+Answer:The plant species that were most commonly misclassified were the European Beech and the Beech tree. European Beech had the lowest accuracy in the entire dataset at 0.86, meaning roughly 14 out of every 100 images were predicted incorrectly. Beech tree was not far behind with an accuracy of 0.95. Aspen tree, Fig tree, and White Oak tree also had minor misclassifications, each scoring 0.98, but their error rates were much smaller compared to the two Beech varieties.
+
+---
+
+### 3. How did changing the epochs, batch size, or learning rate affect the training results?
+
+Answer:The training was configured with 50 epochs, a batch size of 16, a learning rate of 0.001, and 250 images per class. Looking at the final result of 99.1% accuracy, it is clear that this combination of hyperparameters worked really well together. But it is worth breaking down how each one likely contributed to that outcome.
+
+---
+
+### 4. What challenges did you encounter during dataset collection and labeling?
+
+Answer: Challenges encountered during dataset collection was simply finding enough high quality images for each tree species. Some tree species are more commonly photographed than others, so finding 250 images per class that were clear, consistent, and actually useful for training was not always straightforward.
+
+---
+
+### 5. If you were to improve your model, what specific changes would you make and why?
+
+Answer:If I were to improve the model, there are several specific changes I would consider making, each targeting a different aspect of the training pipeline that could push the accuracy even higher and make the model more reliable in real world conditions. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
